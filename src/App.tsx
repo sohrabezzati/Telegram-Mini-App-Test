@@ -2,13 +2,10 @@
 import './App.css';
 
 const App: React.FC = () => {
-
-
-  
   return (
     <div className="iframe-container" style={{ height: '100vh', width: '100vw' }}>
       <iframe
-        src="http://192.168.10.2"
+        src="/api/"
         title="Local Site"
         style={{
           width: '100%',
